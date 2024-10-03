@@ -1,0 +1,130 @@
+/* Reset some default margins and paddings for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body and Header Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Removes bullet points from navigation */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between form and map */
+    align-items: stretch; /* Ensure both items stretch to the same height */
+    padding: 40px;
+    max-width: 1200px; /* Limit the width of the contact section */
+    margin: auto; /* Center the section */
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 45%; /* Set width for form */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center; /* Center title */
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em; /* Increase font size for better readability */
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing */
+    height: 100px; /* Set a default height */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em; /* Increase font size for better readability */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.contact-form button:hover {
+    background-color: #555; /* Change color on hover */
+}
+
+/* Map Container */
+.map-container {
+    width: 45%; /* Set width to half */
+    text-align: center;
+}
+
+.map-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.map-container iframe {
+    width: 100%; /* Make the map responsive */
+    height: 450px; /* Set a fixed height for the map */
+    border: none;
+    border-radius: 10px; /* Rounds the corners of the iframe */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: relative; /* Adjusted position for footer */
+    width: 100%;
+    bottom: 0;
+}
