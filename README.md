@@ -25,9 +25,7 @@ CSS3
 JavaScript
 
 Project Structure
-matlab
-Copy
-Edit
+
 portfoliotobin/
 │── index.html
 │── about.html
@@ -43,13 +41,11 @@ You can directly visit the live site or run it locally:
 
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/tobin4900/portfoliotobin.git
 Open index.html in your browser.
 
-Notes
+
 Hosted using GitHub Pages.
 
 This is a static site designed for showcasing my personal information and projects.
