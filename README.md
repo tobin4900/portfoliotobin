@@ -1,8 +1,8 @@
 Portfolio – Tobin Thomas
 This is my personal portfolio website that showcases information about me, my work, and ways to get in touch. The website includes sections for home, about, gallery, and contact, along with a signup page.
 
-Live Demo
-View Portfolio Website
+[View Portfolio Website](https://tobin4900.github.io/portfoliotobin/)
+
 
 Features
 Homepage with introduction and welcome message
